@@ -1,5 +1,7 @@
 .cpcache
 .nrepl-port
+out
+cljs-test-runner-out
 /target
 .ci/deploy-key
 .ci/deploy-key.pub
