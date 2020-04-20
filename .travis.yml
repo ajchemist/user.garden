@@ -11,10 +11,10 @@ jdk:
 
 env:
   matrix:
-    - TESTOPT="-R:1.9 -A:provided:test.test-runner"
-    - TESTOPT="-R:1.10 -A:provided:test.test-runner"
-    - TESTOPT="-R:1.9 -A:provided:test.cljs-test-runner"
-    - TESTOPT="-R:1.10 -A:provided:test.cljs-test-runner"
+    - TESTOPT="-R:1.9 -A:provided:test:test-runner"
+    - TESTOPT="-R:1.10 -A:provided:test:test-runner"
+    - TESTOPT="-R:1.9 -A:provided:test:cljs-test-runner"
+    - TESTOPT="-R:1.10 -A:provided:test:cljs-test-runner"
 
 
 install:
