@@ -1,3 +1,4 @@
+.clj-kondo/.cache
 .cpcache
 .nrepl-port
 .eastwood
@@ -6,3 +7,4 @@ cljs-test-runner-out
 /target
 .ci/deploy-key
 .ci/deploy-key.pub
+.obsolete
