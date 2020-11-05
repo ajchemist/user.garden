@@ -98,7 +98,9 @@ jobs:
 
 
       - name: Make package
-        run: clojure -M:1.10:provided:test -m user.tools.deps.script.package -r user.apache.maven.alpha
+        env:
+          LIBRARY: user.garden
+        run: clojure -M:1.10:provided:test -m user.tools.deps.script.package -r $LIBRARY
 
 
       - name: Deploy
