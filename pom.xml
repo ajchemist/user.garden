@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>user.garden</groupId>
   <artifactId>user.garden</artifactId>
-  <version>2020.306.35146</version>
+  <version>2020.310.17058</version>
   <repositories>
     <repository>
       <id>clojars</id>
